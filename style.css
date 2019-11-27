@@ -1,0 +1,22 @@
+h1{
+    background-color: rgb(228, 228, 181)
+}
+body{
+    background-color:rgb(155, 75, 75)
+}
+#Misupertitulo{
+    font-size: 60px
+}
+.imagenes{
+    width: 500px;
+    height: 400px;
+}
+a:hover{
+    color: gray;
+    font-size: 30px;
+    font-style: italic
+}
+img:hover{
+    width: 700px;
+    height: 500px;
+}
