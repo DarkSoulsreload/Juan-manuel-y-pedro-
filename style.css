@@ -1,15 +1,28 @@
+*{
+    margin:auto;
+}
+p{
+    margin: 40px;
+    border: 2px solid black;
+    padding: 40px;
+}
+
 h1{
-    background-color: rgb(228, 228, 181)
+    background-color: rgb(228, 228, 181);
+    text-align: center;
 }
 body{
-    background-color:rgb(155, 75, 75)
+    background-color:rgb(155, 75, 75);
+    text-align: center;
 }
 #Misupertitulo{
-    font-size: 60px
+    font-size: 60px;
+    padding: 70px;
 }
 .imagenes{
     width: 500px;
     height: 400px;
+    
 }
 a:hover{
     color: gray;
@@ -19,4 +32,9 @@ a:hover{
 img:hover{
     width: 700px;
     height: 500px;
+}
+.imagenesIntro{
+    width: 280px;
+    display: block;
+    margin-top: 50px;
 }
