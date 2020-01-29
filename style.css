@@ -83,3 +83,39 @@ img:hover{
     right: 100px;
     overflow: scroll;
 }
+
+.transicion {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+  }
+
+  .transicion2 {
+    width: 80px;
+    height: 60px;
+    background: red;
+    transition: height 2s;
+  }
+
+  aside{
+      animation-name: miAnimacion;
+      animation-duration: 200ms;
+      animation-delay: 2s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: reverse; 
+  }
+
+  @keyframes miAnimacion{
+      0%{
+          transform: scale(.96,.50); 
+      }
+      50%{
+          transform: rotateZ(2deg);
+      }
+      100%{
+          transform: translate(-6px,6px);
+          filter: contrast(100%);
+      }
+  }
